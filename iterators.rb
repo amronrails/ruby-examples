@@ -34,7 +34,7 @@ a = [1,2,3,4,5,6,7,8,9,10]
 a.select!{|item| item.odd?}
 
 #.reject is the opposite of select
-a.reject {|i| i.even?} # returns the same as in line 32
+a.reject {|i| i.even?} # returns the same as in previous example
 
 #.find similar to select but returns the first element
 # similar to the difference between .where and .find_by_* in rails
