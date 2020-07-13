@@ -29,6 +29,7 @@ end
 end
 
 #.select! takes a condition and filters values according to this condition
+# a = [*1..10] or [*'a'..'z']
 a = [1,2,3,4,5,6,7,8,9,10]
 # a = a.select{|item| item.odd?}
 a.select!{|item| item.odd?}
